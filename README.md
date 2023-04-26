@@ -5,5 +5,10 @@
 
 Link: https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-hateoas
 
-
-
+# Implementation Options:
+    1. Custom Format and implementation
+        - Difficullt to maintain
+    2. Use Standard Implementation 
+        - HAL (JSON Hypertext Application Language)
+        - Spring HATEOAS: Generate HAL responses with hyperlinks to resources
+        
